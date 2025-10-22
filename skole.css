@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+img{
+    display: block;
+}
+
+body{
+    background-color: rgb(203, 234, 245);
+   
+}
+
+.header {
+            display: flex;
+            justify-content: space-evenly;
+            color: rgb(98, 92, 147);
+            padding: 10px;
+        }
+
+        .strek {
+            border: 1px solid white;
+            margin-bottom: 30px;
+            border-radius: 20px;
+
+        }
+
+    .ekstra{
+        font-weight: 800;
+    }
+
+    a{
+        color: rgb(98, 92, 147);
+        text-decoration: none;
+    }
+
+
+
+ h1 {
+     text-align: center;
+     letter-spacing: 10px;
+     font-size: 50px;
+     margin: 50px;
+     
+ }
+
+ .s1{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    
+ }
+
+ .bokserskole{
+    background-color: azure;
+    height: 100%;
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ .s1 .bokserskole img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+ }
+
+ .s1 .bokserskole h2{
+    font-size: 30px;
+    margin: 5px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+
+ }
+
+ .s1 .bokserskole p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 5px;
+    letter-spacing: 1px;
+ }
+
+ .infoskole{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px double rgb(97, 204, 239);
+    padding: 5px;
+    margin-top: 50px;
+
+ }
+
+ .infoskole h2{
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+ }
+
+ .containerskole{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+ }
+
+ .skoler{
+    margin-top: 20px;
+    overflow: hidden;
+
+ }
+
+ .skoler img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+
+ .skolenavncontainer{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    
+ }
+
+ .skolenavn{
+    background-color: white;
+    border: 5px double rgb(97, 204, 239);
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+ }
+
+ .nadderud{
+    background-image: url(bilder/nadderudbakgrunn.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .storboks{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+    
+    
+ }
+
+ .overskrift{
+    font-size:80px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+    letter-spacing: 15px;
+    margin-left: 600px;
+    margin-top: 30px;
+ }
+
+ .tekst{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+ }
+
+ .fagfysikk{
+    height: 30%;
+    margin: 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bilder/fysikk2.jpg.jpg);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten; 
+ }
+
+ .fagkjemi{
+    height: 30%;
+    margin: 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bilder/kjemi.webp);
+    background-color: rgba(255, 255, 255, 0.4); 
+  background-blend-mode: lighten; 
+
+
+ }
+
+ .fagit{
+    height: 30%;
+    margin: 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bilder/IT.jpg);
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-blend-mode: lighten; 
+
+ }
+
+ .tekst2{
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    text-align: center;
+    padding: auto;
+    padding-top: 10%;
+    font-weight: 600;
+    letter-spacing: 5px;
+            
+
+ }
+
+ .timeplan{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 10px;
+ }
+ td{
+                text-align: center;
+            }
+
+            table{
+                border-collapse: collapse;
+            }
+
+            td{
+                border: 2px solid black;
+                padding: 15px;
+            
+            }
+
+            .topp{
+                background-color: bisque;
+                font-weight: bold;
+                font-size: large;
+            }
+
+            .lunsj td{
+                background-color: darkgray;
+            }
+
+            .IT{
+                background-color: aqua;
+            }
+
+            .fysikk{
+                background-color: deeppink;
+
+            }
+
+            .gym{
+                background-color: yellow;
+            }
+
+            .matte{
+                background-color: greenyellow;
+            }
+
+            .norsk{
+                background-color: rgb(249, 199, 249);
+
+            }
+
+            .kjemi{
+                background-color: rgb(147, 147, 248);
+            }
+
+            .spansk{
+                background-color: rgb(187, 112, 203);
+            }
+
+            .historie{
+                background-color: orange;
+            }
+
+            .kt{
+                background-color: cadetblue;
+            }
+
+            .tabell{
+                margin: auto;
+            }
+
+.footer {
+            display: grid;
+            grid-template-columns: 4fr 3fr;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            height: 100% auto;
+            margin-top: 200px;
+
+        }
+
+        .footerboks2 {
+            height: 200px;
+
+            background-color: white;
+            padding: 10px;
+        }
+
+        .navnosv{
+            padding: 10px;
+        }
+
+        .footerboks1 {
+            height: 200px;
+            background-color: white;
+            border-right: 2px solid black;
+            padding: 10px;
+        }
+
+        .footer .footerboks1 h3 {
+            font-size: 25px;
+            word-spacing: normal;
+            padding: 10px;
+
+        }
+
+        .footer .footerboks2 h3{
+            font-size: 25px;
+            word-spacing: normal;
+            padding: 10px;
+        }
+
+      
+
+        .langfooter {
+            width: 100%;
+            border-top: 2px solid black;
+            background-color: white;
+            height: 90px;
+            padding: 0 10px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            box-sizing: border-box;
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footerimg {
+            border: 2px solid black;
+
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+
+
+
+
+        }
+
+        .langfooter .footerimg img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+
+            border-radius: 50%;
+        }
+
+        .langfootertekst {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 30px;
+            padding: 30px;
+        }
+
+        .footerikoner {
+            display: flex;
+            gap: 20px;
+            padding-right: 30px;
+        }
+
+        .personliginfo{
+            padding: 10px;
+        }
+
+   
+ 

@@ -1,0 +1,158 @@
+ body {
+     background-color: rgb(132, 129, 129);
+ }
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ .header {
+            display: flex;
+            justify-content: space-evenly;
+            color:black;
+            padding: 10px;
+            
+        }
+
+        .strek {
+            border: 1px solid white;
+            border-radius: 20px;
+
+        }
+
+    .ekstra{
+        font-weight: 800;
+    }
+
+
+ 
+ a{
+  text-decoration: none;
+   color: black;
+ }
+
+ .legeliten{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bilder/54B91D89-21D1-4558-8EE9-195D7E291A9B_1_201_a.jpeg);
+    background-position: center;
+    background-size: contain;
+    filter: grayscale(80%) brightness(90%) contrast(110%);
+    display: flex;
+ }
+
+ .legeliten h3{
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 80px;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 3px rgba(7, 7, 7, 0.9);
+ }
+
+ .legestor{
+    height: 100vh;
+ }
+
+
+
+
+
+ .footer {
+            display: grid;
+            grid-template-columns: 4fr 3fr;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            height: 100% auto;
+
+        }
+
+        .footerboks2 {
+            height: 200px;
+
+            background-color: white;
+            padding: 10px;
+        }
+
+        .footerboks1 {
+            height: 200px;
+            background-color: white;
+            border-right: 2px solid black;
+            padding: 10px;
+        }
+
+        .footer .footerboks1 h3 {
+            font-size: 25px;
+            word-spacing: normal;
+            text-align: unset;
+            letter-spacing: 3px;
+            padding: 10px;
+
+
+        }
+
+        .navnosv{
+         padding: 10px;
+        }
+
+        .footer .footerboks2 h3{
+         font-size: 25px;
+            word-spacing: normal;
+            text-align: unset;
+            letter-spacing: 3px;
+            padding: 10px;
+        }
+
+        .personliginfo {
+         padding: 10px;
+        }
+
+        .langfooter {
+            width: 100%;
+            border-top: 2px solid black;
+            background-color: white;
+            height: 90px;
+            padding: 0 10px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            box-sizing: border-box;
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footerimg {
+            border: 2px solid black;
+
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+
+
+
+
+        }
+
+        .langfooter .footerimg img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+
+            border-radius: 50%;
+        }
+
+        .langfootertekst {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 30px;
+        }
+
+        .footerikoner {
+            display: flex;
+            gap: 20px;
+            padding-right: 30px;
+        }
