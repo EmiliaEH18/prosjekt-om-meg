@@ -16,11 +16,11 @@ img{
             padding: 10px;
         }
 
-        .strek {
-            border: 1px solid white;
-            border-radius: 20px;
+.strek {
+     border: 1px solid white;
+     border-radius: 20px;
 
-        }
+ }
 
     .ekstra{
         font-weight: 800;
@@ -31,20 +31,18 @@ img{
     }
 
 
-.footer {
+       .footer {
             display: grid;
             grid-template-columns: 4fr 3fr;
             width: 100%;
             margin-left: 0;
             margin-right: 0;
             height: 100% auto;
-          
-
         }
 
-        .footerboks2 {
+        .footerboks2,
+        .footerboks1 {
             height: 200px;
-
             background-color: white;
             padding: 10px;
         }
@@ -55,20 +53,12 @@ img{
         }
 
         .footerboks1 {
-            height: 200px;
-            background-color: white;
             border-right: 2px solid black;
-            padding: 10px;
         }
 
-        .footer .footerboks1 h3 {
-            font-size: 25px;
-            word-spacing: normal;
-            padding: 10px;
 
-        }
-
-        .footer .footerboks2 h3{
+        .footer .footerboks2 h3,
+        .footer .footerboks1 h3{
             font-size: 25px;
             word-spacing: normal;
             padding: 10px;
@@ -81,33 +71,24 @@ img{
             border-top: 2px solid black;
             background-color: white;
             height: 90px;
-            padding: 0 10px;
             display: flex;
-            justify-content: flex-end;
             gap: 30px;
             box-sizing: border-box;
             padding-top: 15px;
-            display: flex;
             justify-content: space-between;
         }
 
         .footerimg {
             border: 2px solid black;
-
             height: 50px;
             width: 50px;
             border-radius: 50%;
-
-
-
-
         }
 
         .langfooter .footerimg img {
             width: 100%;
             object-fit: cover;
             height: 100%;
-
             border-radius: 50%;
         }
 
@@ -120,7 +101,7 @@ img{
 
         .footerikoner {
             display: flex;
-            gap: 20px;
+            gap: 30px;
             padding-right: 30px;
         }
 
