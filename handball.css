@@ -8,8 +8,6 @@ p {
 }
 
 
-
-
 a {
     color: white;
 }
@@ -93,16 +91,12 @@ h1 {
 
 .megoghåndball .håndballhistorie .hbilde img {
     object-fit: cover;
-    width: 100%;
     height: 100%;
-    display: block;
 }
 
 .megoghåndball .håndballhistorie .hbilde2 img {
     object-fit: cover;
-    width: 100%;
     height: 100%;
-    display: block;
 }
 
 .idoler {
