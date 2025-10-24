@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(244, 207, 212);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.strek {
+    margin-bottom: 30px;
+}
+
+.ekstra {
+    color: palevioletred;
+}
+
+a {
+    color: palevioletred;
+}
+
+
+.overskrift {
+    background-color: rgb(249, 235, 235);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.overskrift h1 {
+    color: rgb(186, 99, 128);
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    margin: 10px;
+}
+
+.container1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ommeg1 {
+    height: 200px;
+    width: 45%;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.ommeg2 {
+    height: 400px;
+    width: 45%;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.ommeg1 h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(186, 99, 128);
+    font-size: 40px;
+}
+
+.ommeg1 p {
+    color: rgb(186, 99, 128);
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+
+.ommeg2 img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.fødsel {
+    margin: 150px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
+.item1 {
+    background-color: pink;
+    border: 6px double white;
+    overflow: hidden;
+    height: 500px;
+}
+
+.fødsel .item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.item2 {
+    height: 200px;
+}
+
+.fødselsdato {
+    color: hotpink;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.valg {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.sirkel {
+    height: 200px;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 1s;
+}
+
+.valg .sirkel img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.sirkel a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sirkel:hover {
+    transform: scale(1.1);
+}
+
+.bokstekst {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.underoverskrift {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 50px;
+    margin: 60px;
+}

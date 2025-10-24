@@ -1,38 +1,35 @@
-
-body{
+body {
     background-color: rgb(203, 234, 245);
-   
+
 }
 
-    .header {
-            color: rgb(98, 92, 147);
-        }
+.header {
+    color: rgb(98, 92, 147);
+}
 
-        .strek {
-            margin-bottom: 30px;
+.strek {
+    margin-bottom: 30px;
+}
 
-        }
-        .ekstra{
-            color: rgb(98, 92, 147);
-        }
-
-    
-
-    a{
-        color: rgb(98, 92, 147);
-    }
+.ekstra {
+    color: rgb(98, 92, 147);
+}
 
 
+a {
+    color: rgb(98, 92, 147);
+}
 
- h1 {
-     text-align: center;
-     letter-spacing: 10px;
-     font-size: 50px;
-     margin: 50px;
-     
- }
 
- .s1{
+
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.s1 {
     height: 500px;
     width: 80%;
     margin: auto;
@@ -40,42 +37,38 @@ body{
     justify-content: space-evenly;
     margin-bottom: 200px;
     margin-top: 100px;
-    
- }
+}
 
- .bokserskole{
+.bokserskole {
     background-color: azure;
     height: 100%;
     width: 40%;
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
 
- }
-
- .s1 .bokserskole img{
+.s1 .bokserskole img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
 
- }
-
- .s1 .bokserskole h2{
+.s1 .bokserskole h2 {
     font-size: 30px;
     margin: 5px;
     margin-bottom: 25px;
     letter-spacing: 3px;
+}
 
- }
-
- .s1 .bokserskole p{
+.s1 .bokserskole p {
     font-size: 20px;
     line-height: 1.5;
     margin: 5px;
     letter-spacing: 1px;
- }
+}
 
- .infoskole{
+.infoskole {
     height: 100%;
     width: 80%;
     background-color: white;
@@ -84,50 +77,47 @@ body{
     border: 5px double rgb(97, 204, 239);
     padding: 5px;
     margin-top: 50px;
+}
 
- }
-
- .infoskole h2{
+.infoskole h2 {
     font-size: 25px;
     letter-spacing: 5px;
     text-align: center;
     font-weight: 500;
     padding: 10px;
- }
+}
 
- .containerskole{
+.containerskole {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 400px;
     width: 80%;
     margin: auto;
     gap: 30px;
- }
+}
 
- .skoler{
+.skoler {
     margin-top: 20px;
     overflow: hidden;
+}
 
- }
-
- .skoler img{
+.skoler img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
- }
+}
 
- .skolenavncontainer{
+.skolenavncontainer {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
     margin: auto;
     gap: 30px;
-    
- }
+}
 
- .skolenavn{
+.skolenavn {
     background-color: white;
     border: 5px double rgb(97, 204, 239);
     border-radius: 10px;
@@ -135,54 +125,52 @@ body{
     text-align: center;
     letter-spacing: 3px;
     padding: 10px;
- }
+}
 
- .nadderud{
+.nadderud {
     background-image: url(bilder/nadderudbakgrunn.jpg.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
     margin-top: 200px;
     margin-bottom: 100px;
-    background-color: rgba(0, 0, 0, 0.4); 
+    background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
     display: flex;
     justify-content: space-evenly;
- }
+}
 
- .storboks{
+.storboks {
     height: 100%;
     width: 45%;
     display: flex;
     flex-direction: column;
-    gap: 10px   ;
-    
-    
- }
+    gap: 10px;
+}
 
- .overskrift{
-    font-size:80px;
+.overskrift {
+    font-size: 80px;
     color: white;
     font-weight: 600;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    writing-mode: vertical-rl; 
-    transform: rotate(180deg); 
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
     letter-spacing: 15px;
     margin-left: 600px;
     margin-top: 30px;
- }
+}
 
- .tekst{
+.tekst {
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: 500;
- }
+}
 
- .fagfysikk{
+.fagfysikk {
     height: 30%;
     margin: 40px;
     border-radius: 50px;
@@ -192,10 +180,10 @@ body{
     background-size: cover;
     background-image: url(bilder/fysikk2.jpg.jpg);
     background-color: rgba(255, 255, 255, 0.4);
-    background-blend-mode: lighten; 
- }
+    background-blend-mode: lighten;
+}
 
- .fagkjemi{
+.fagkjemi {
     height: 30%;
     margin: 40px;
     border-radius: 50px;
@@ -204,13 +192,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(bilder/kjemi.webp);
-    background-color: rgba(255, 255, 255, 0.4); 
-  background-blend-mode: lighten; 
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+}
 
-
- }
-
- .fagit{
+.fagit {
     height: 30%;
     margin: 40px;
     border-radius: 50px;
@@ -219,12 +205,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(bilder/IT.jpg);
-    background-color: rgba(255, 255, 255, 0.4); 
-    background-blend-mode: lighten; 
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+}
 
- }
-
- .tekst2{
+.tekst2 {
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 40px;
@@ -233,115 +218,109 @@ body{
     padding-top: 10%;
     font-weight: 600;
     letter-spacing: 5px;
-            
+}
 
- }
-
- .timeplan{
+.timeplan {
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
     font-weight: 600;
     letter-spacing: 10px;
- }
- td{
-                text-align: center;
-            }
+}
 
-            table{
-                border-collapse: collapse;
-            }
+td {
+    text-align: center;
+}
 
-            td{
-                border: 2px solid black;
-                padding: 15px;
-            
-            }
+table {
+    border-collapse: collapse;
+}
 
-            .topp{
-                background-color: bisque;
-                font-weight: bold;
-                font-size: large;
-            }
+td {
+    border: 2px solid black;
+    padding: 15px;
+}
 
-            .lunsj td{
-                background-color: darkgray;
-            }
+.topp {
+    background-color: bisque;
+    font-weight: bold;
+    font-size: large;
+}
 
-            .IT{
-                background-color: aqua;
-            }
+.lunsj td {
+    background-color: darkgray;
+}
 
-            .fysikk{
-                background-color: deeppink;
+.IT {
+    background-color: aqua;
+}
 
-            }
+.fysikk {
+    background-color: deeppink;
+}
 
-            .gym{
-                background-color: yellow;
-            }
+.gym {
+    background-color: yellow;
+}
 
-            .matte{
-                background-color: greenyellow;
-            }
+.matte {
+    background-color: greenyellow;
+}
 
-            .norsk{
-                background-color: rgb(249, 199, 249);
+.norsk {
+    background-color: rgb(249, 199, 249);
+}
 
-            }
+.kjemi {
+    background-color: rgb(147, 147, 248);
+}
 
-            .kjemi{
-                background-color: rgb(147, 147, 248);
-            }
+.spansk {
+    background-color: rgb(187, 112, 203);
+}
 
-            .spansk{
-                background-color: rgb(187, 112, 203);
-            }
+.historie {
+    background-color: orange;
+}
 
-            .historie{
-                background-color: orange;
-            }
+.kt {
+    background-color: cadetblue;
+}
 
-            .kt{
-                background-color: cadetblue;
-            }
+.tabell {
+    margin: auto;
+}
 
-            .tabell{
-                margin: auto;
-    
-            }
-
-   .legeliten{
+.legeliten {
     margin-top: 140px;
     height: 100vh;
     width: 100%;
-    background-image: url(bilder/54B91D89-21D1-4558-8EE9-195D7E291A9B_1_201_a.jpeg);
+    background-image: url(bilder/legelitenmedeline.png);
     background-position: center;
     background-size: contain;
     filter: grayscale(80%) brightness(90%) contrast(110%);
     display: flex;
- }
+}
 
- .legeliten h3{
+.legeliten h3 {
     text-align: center;
     color: white;
     margin: auto;
     font-size: 80px;
     letter-spacing: 7px;
     text-shadow: 1px 1px 3px rgba(7, 7, 7, 0.9);
- }
+}
 
- .legestor{
+.legestor {
     height: 100vh;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
- }
+}
 
- .legeframtid1{
-   
+.legeframtid1 {
     height: 600px;
     width: 600px;
     display: flex;
@@ -349,41 +328,32 @@ body{
     overflow: hidden;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     border-radius: 20px;
-    
- }
+}
 
-  .legeframtid{
-   
+.legeframtid {
     height: 600px;
     width: 600px;
     flex-direction: column;
     overflow: hidden;
-  }
+}
 
- .legeframtid h3{
+.legeframtid h3 {
     color: white;
     text-align: center;
     padding: 20px;
     font-size: 40px;
- }
+}
 
- .legeframtid p{
+.legeframtid p {
     color: white;
     font-size: 20px;
     line-height: 1.5;
     padding: 29px;
     text-align: center;
- }
+}
 
- .legeframtid img{
+.legeframtid img {
     width: 100%;
     border-radius: 20px;
-
     object-fit: cover;
-    
-   
- }
-
-
-   
- 
+}

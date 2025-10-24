@@ -1,114 +1,110 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-img{
+img {
     display: block;
 }
 
 .header {
-            display: flex;
-            justify-content: space-evenly;
-            color: black;
-            padding: 10px;
-        }
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    padding: 10px;
+}
 
 .strek {
-     border: 1px solid white;
-     border-radius: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
 
- }
+}
 
-    .ekstra{
-        font-weight: 800;
-    }
+.ekstra {
+    font-weight: 800;
+}
 
-    a{
-        text-decoration: none;
-    }
-
-
-       .footer {
-            display: grid;
-            grid-template-columns: 4fr 3fr;
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
-            height: 100% auto;
-        }
-
-        .footerboks2,
-        .footerboks1 {
-            height: 200px;
-            background-color: white;
-            padding: 10px;
-        }
-
-        .navnosv{
-            padding: 10px;
-            color: black;
-        }
-
-        .footerboks1 {
-            border-right: 2px solid black;
-        }
+a {
+    text-decoration: none;
+}
 
 
-        .footer .footerboks2 h3,
-        .footer .footerboks1 h3{
-            font-size: 25px;
-            word-spacing: normal;
-            padding: 10px;
-        }
+.footer {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100% auto;
+}
 
-      
+.footerboks2,
+.footerboks1 {
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+}
 
-        .langfooter {
-            width: 100%;
-            border-top: 2px solid black;
-            background-color: white;
-            height: 90px;
-            display: flex;
-            gap: 30px;
-            box-sizing: border-box;
-            padding-top: 15px;
-            justify-content: space-between;
-        }
+.navnosv {
+    padding: 10px;
+    color: black;
+}
 
-        .footerimg {
-            border: 2px solid black;
-            height: 50px;
-            width: 50px;
-            border-radius: 50%;
-        }
+.footerboks1 {
+    border-right: 2px solid black;
+}
 
-        .langfooter .footerimg img {
-            width: 100%;
-            object-fit: cover;
-            height: 100%;
-            border-radius: 50%;
-        }
 
-        .langfootertekst {
-            display: flex;
-            justify-content: flex-start;
-            padding-left: 30px;
-            padding: 30px;
-        }
+.footer .footerboks2 h3,
+.footer .footerboks1 h3 {
+    font-size: 25px;
+    word-spacing: normal;
+    padding: 10px;
+}
 
-        .footerikoner {
-            display: flex;
-            gap: 30px;
-            padding-right: 30px;
-        }
 
-        .personliginfo{
-            padding: 10px;
-            color: black;
-        }
 
-   
- 
+.langfooter {
+    width: 100%;
+    border-top: 2px solid black;
+    background-color: white;
+    height: 90px;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.footerimg {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.langfooter .footerimg img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.langfootertekst {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding: 30px;
+}
+
+.footerikoner {
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+.personliginfo {
+    padding: 10px;
+    color: black;
+}
